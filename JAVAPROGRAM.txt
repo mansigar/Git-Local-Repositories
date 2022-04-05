@@ -1,0 +1,15 @@
+public class Iteration
+{
+public static void main(String args[])
+{
+
+int a=0,b=0;
+
+do
+{
+if(a==b)
+System.out.println("Inputs are same");
+else
+System.out.println("Inputs not matched, Do you want to continue?");
+while(a!=b);
+System.out.println("Enter your choice");
